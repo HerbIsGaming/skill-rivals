@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skill Rivals</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<!-- Default theme class set to dark-theme -->
+<body class="dark-theme">
+
+    <!-- Header Section (Simplified) -->
+    <div class="header-container">
+        <h1>Skill Rivals</h1>
+        <div class="header-icons">
+            <span id="gold-display" class="gold-indicator" title="Your Gold">
+                <i class="fas fa-coins"></i>
+                <span id="player-gold">0</span> GP
+            </span>
+        </div>
+    </div>
+
+    <!-- Main Game Layout Wrapper -->
+    <div class="game-wrapper">
+
+        <!-- Sidebar Navigation -->
+        <nav id="sidebar">
+            <ul class="sidebar-nav">
+                <li><a href="#" id="nav-inventory"><i class="fas fa-box-open"></i> Inventory</a></li>
+                <li><a href="#" id="nav-skills-main"><i class="fas fa-star"></i> Skills</a></li>
+                <li class="nav-separator">Skill Actions</li>
+                <li id="skills-nav-list"><span class="placeholder">Loading...</span></li>
+                <li class="nav-separator">Other</li>
+                <li><a href="#" id="nav-bank"><i class="fas fa-piggy-bank"></i> Bank</a></li>
+                <li><a href="#" id="nav-shop"><i class="fas fa-store"></i> Shop</a></li>
+                <li><a href="#" id="nav-settings"><i class="fas fa-cog"></i> Settings</a></li>
+                <li><a href="#" id="nav-dev-panel-toggle" class="dev-only-link"><i class="fas fa-tools"></i> Dev Tools</a></li>
+            </ul>
+
+            <!-- ==== NEW: Persistent Action Display ==== -->
+            <div id="sidebar-action-display" class="sidebar-action-panel">
+                <div id="sidebar-action-info" style="display: none;">
+                    <!-- Initially hidden -->
+                    <div id="sidebar-action-header">
+                        <span id="sidebar-action-icon"></span> <!-- Optional Icon -->
+                        <span id="sidebar-action-name">Action Name</span>
+                    </div>
+                    <span id="sidebar-action-skill" class="sidebar-action-skill-label">Skill</span>
+                    <div id="sidebar-action-progress-container" class="progress-bar-container">
+                        <div id="sidebar-action-progress-bar" class="progress-bar"></div>
+                    </div>
+                </div>
+                <div id="sidebar-action-placeholder">
+                    <span>Idle</span>
+                </div>
+            </div>
+            <!-- ==== END: Persistent Action Display ==== -->
+
+        </nav>
+
+        <!-- Content Area Wrapper -->
+        <div class="content-area-wrapper">
+            <!-- Main Content Area -->
+            <main id="main-content">
+                <div class="placeholder-content">Select an option from the sidebar to begin.</div>
+            </main>
+
+            <!-- Persistent Log Container -->
+            <div class="content-panel log-panel-persistent">
+                <h2>Log</h2>
+                <div id="log-content-persistent" class="log-container"></div>
+            </div>
+        </div> <!-- End .content-area-wrapper -->
+
+    </div> <!-- End .game-wrapper -->
+    <!-- Modals -->
+    <div id="sell-x-modal" class="modal sell-x-modal-hidden">
+        <div class="modal-content"> <span class="close-button" id="sell-x-close-button">×</span> <h2 id="sell-x-title">Sell How Many?</h2> <div class="sell-x-details"> <span>Item: <strong id="sell-x-item-name">Item Name</strong></span> <span>Max: <span id="sell-x-max-qty">0</span></span> </div> <div class="sell-x-input"> <label for="sell-x-quantity-input">Quantity:</label> <input type="number" id="sell-x-quantity-input" min="1" value="1"> </div> <div id="sell-x-error" class="modal-error-message" style="display: none;"></div> <div class="sell-x-actions modal-actions"> <button id="sell-x-confirm-button">Sell</button> <button id="sell-x-cancel-button">Cancel</button> </div> </div>
+    </div>
+    <div id="context-menu" class="context-menu context-menu-hidden"><ul></ul></div>
+    <div id="dev-panel" class="panel dev-panel-hidden">
+        <h2>Dev Controls</h2> <button id="dev-close-button" class="dev-panel-close-button" title="Close Dev Panel">X</button> <div class="dev-section"> <label for="dev-skill-select">Skill:</label> <select id="dev-skill-select"></select> <label for="dev-level-input">Target Lvl:</label> <input type="number" id="dev-level-input" min="1" value="1" style="width:50px;"> <button id="dev-set-level-button">Set Level</button> </div> <div class="dev-section"> <label for="dev-item-select">Item:</label> <select id="dev-item-select"></select> <label for="dev-item-quantity">Qty:</label> <input type="number" id="dev-item-quantity" min="1" value="1" style="width:50px;"> <button id="dev-give-item-button">Give Item</button> </div> <div class="dev-section"> <button id="dev-reset-save-button" class="danger-button">Reset Save Data</button> <span>(Reloads Page)</span> </div>
+    </div>
+
+    <!-- Load JavaScript Modules -->
+    <script src="constants.js"></script>
+    <script src="state.js"></script>
+    <script src="utils.js"></script>
+    <script src="skillLogic.js"></script>
+    <script src="itemLogic.js"></script>
+    <script src="actionLogic.js"></script>
+    <script src="saveLoad.js"></script>
+    <script src="ui.js"></script>
+    <script src="main.js"></script> <!-- dev functions will be defined here -->
+
+</body>
+</html>

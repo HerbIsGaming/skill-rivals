@@ -1,0 +1,207 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Cody\\Desktop\\skill_rivals_game\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Cody\\Desktop\\skill_rivals_game\\ui.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ui.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Cody\\Desktop\\skill_rivals_game\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Cody\\Desktop\\skill_rivals_game\\actionLogic.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:actionLogic.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Cody\\Desktop\\skill_rivals_game\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Cody\\Desktop\\skill_rivals_game\\skill_rivals.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:skill_rivals.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Cody\\Desktop\\skill_rivals_game\\state.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:state.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Cody\\Desktop\\skill_rivals_game\\saveLoad.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:saveLoad.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Cody\\Desktop\\skill_rivals_game\\itemLogic.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:itemLogic.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Cody\\Desktop\\skill_rivals_game\\skillLogic.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:skillLogic.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Cody\\Desktop\\skill_rivals_game\\utils.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:utils.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Cody\\Desktop\\skill_rivals_game\\constants.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:constants.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ui.js",
+              "DocumentMoniker": "C:\\Users\\Cody\\Desktop\\skill_rivals_game\\ui.js",
+              "RelativeDocumentMoniker": "ui.js",
+              "ToolTip": "C:\\Users\\Cody\\Desktop\\skill_rivals_game\\ui.js",
+              "RelativeToolTip": "ui.js",
+              "ViewState": "AgIAAMMAAAAAAAAAAAAIwPkAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-04-26T08:05:11.381Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "style.css",
+              "DocumentMoniker": "C:\\Users\\Cody\\Desktop\\skill_rivals_game\\style.css",
+              "RelativeDocumentMoniker": "style.css",
+              "ToolTip": "C:\\Users\\Cody\\Desktop\\skill_rivals_game\\style.css",
+              "RelativeToolTip": "style.css",
+              "ViewState": "AgIAACEDAAAAAAAAAAAQwFkDAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-04-26T09:29:35.468Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "skill_rivals.html",
+              "DocumentMoniker": "C:\\Users\\Cody\\Desktop\\skill_rivals_game\\skill_rivals.html",
+              "RelativeDocumentMoniker": "skill_rivals.html",
+              "ToolTip": "C:\\Users\\Cody\\Desktop\\skill_rivals_game\\skill_rivals.html",
+              "RelativeToolTip": "skill_rivals.html",
+              "ViewState": "AgIAACoAAAAAAAAAAAAQwGIAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-04-26T03:18:31.176Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "constants.js",
+              "DocumentMoniker": "C:\\Users\\Cody\\Desktop\\skill_rivals_game\\constants.js",
+              "RelativeDocumentMoniker": "constants.js",
+              "ToolTip": "C:\\Users\\Cody\\Desktop\\skill_rivals_game\\constants.js",
+              "RelativeToolTip": "constants.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-04-26T03:14:13.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "state.js",
+              "DocumentMoniker": "C:\\Users\\Cody\\Desktop\\skill_rivals_game\\state.js",
+              "RelativeDocumentMoniker": "state.js",
+              "ToolTip": "C:\\Users\\Cody\\Desktop\\skill_rivals_game\\state.js",
+              "RelativeToolTip": "state.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-04-26T03:14:13.266Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "utils.js",
+              "DocumentMoniker": "C:\\Users\\Cody\\Desktop\\skill_rivals_game\\utils.js",
+              "RelativeDocumentMoniker": "utils.js",
+              "ToolTip": "C:\\Users\\Cody\\Desktop\\skill_rivals_game\\utils.js",
+              "RelativeToolTip": "utils.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-04-26T03:14:13.317Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "skillLogic.js",
+              "DocumentMoniker": "C:\\Users\\Cody\\Desktop\\skill_rivals_game\\skillLogic.js",
+              "RelativeDocumentMoniker": "skillLogic.js",
+              "ToolTip": "C:\\Users\\Cody\\Desktop\\skill_rivals_game\\skillLogic.js",
+              "RelativeToolTip": "skillLogic.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-04-26T03:14:13.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "itemLogic.js",
+              "DocumentMoniker": "C:\\Users\\Cody\\Desktop\\skill_rivals_game\\itemLogic.js",
+              "RelativeDocumentMoniker": "itemLogic.js",
+              "ToolTip": "C:\\Users\\Cody\\Desktop\\skill_rivals_game\\itemLogic.js",
+              "RelativeToolTip": "itemLogic.js",
+              "ViewState": "AgIAAHsBAAAAAAAAAAAuwLoBAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-04-26T03:14:13.128Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "actionLogic.js",
+              "DocumentMoniker": "C:\\Users\\Cody\\Desktop\\skill_rivals_game\\actionLogic.js",
+              "RelativeDocumentMoniker": "actionLogic.js",
+              "ToolTip": "C:\\Users\\Cody\\Desktop\\skill_rivals_game\\actionLogic.js",
+              "RelativeToolTip": "actionLogic.js",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAcwHoAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-04-26T03:14:13.056Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "saveLoad.js",
+              "DocumentMoniker": "C:\\Users\\Cody\\Desktop\\skill_rivals_game\\saveLoad.js",
+              "RelativeDocumentMoniker": "saveLoad.js",
+              "ToolTip": "C:\\Users\\Cody\\Desktop\\skill_rivals_game\\saveLoad.js",
+              "RelativeToolTip": "saveLoad.js",
+              "ViewState": "AgIAALAAAAAAAAAAAAAswPIAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-04-26T03:14:13.183Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "main.js",
+              "DocumentMoniker": "C:\\Users\\Cody\\Desktop\\skill_rivals_game\\main.js",
+              "RelativeDocumentMoniker": "main.js",
+              "ToolTip": "C:\\Users\\Cody\\Desktop\\skill_rivals_game\\main.js",
+              "RelativeToolTip": "main.js",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAcwH4AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-04-26T03:14:13.155Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

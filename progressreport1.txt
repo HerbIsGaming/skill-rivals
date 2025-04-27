@@ -1,0 +1,112 @@
+Okay, let's establish a clear checkpoint. Based on our session, starting from the initial state you provided and incorporating all the successful changes and fixes we implemented, here is the progress report reflecting the current, functional state of the Skill Rivals game:
+
+Project: Skill Rivals Idle Game
+
+Session Summary (Current State - End of this Chat):
+
+UI Layout:
+
+Sidebar navigation is functional for all main links (Inventory, Skills, Bank, Shop, Settings, Dev Tools toggle).
+
+Dynamically generated Skill Action links (Thieving, Woodcutting) in the sidebar are functional via event delegation.
+
+Views load correctly into the main content area when corresponding sidebar links are clicked.
+
+Persistent log panel below main content functions correctly.
+
+New: A persistent action display panel has been added to the bottom of the sidebar, showing the currently active action's name, skill, icon, and a progress bar (or idle state).
+
+Skills & Actions:
+
+Woodcutting actions ('Chop Tree', 'Chop Oak') are functional with level/equipment requirements and progress bars.
+
+Thieving action 'Pickpocket Man' is functional:
+
+Includes success/failure chance (pickpocketManSuccessRate).
+
+Grants loot & XP only on successful attempt and successful item acquisition.
+
+New: Stun mechanic implemented: Failure applies a configurable stun (pickpocketManStunDuration), preventing subsequent pickpocket attempts for the duration.
+
+New: Visual stun indication: Both the main action item's progress bar and the sidebar action display's progress bar turn red and deplete during the stun duration.
+
+Bonuses:
+
+"Active session" bonus system (gameState.transient.internal.isActiveSession) is in place.
+
+Woodcutting actions have a chance for double resources & bonus XP multiplier during active sessions.
+
+Thieving currently has no active bonuses configured.
+
+Visual Feedback:
+
+New: Action items in the main content area and the persistent sidebar action panel now flash their border briefly on action completion (Green for success, Red for stun/failure - currently implemented for Thieving).
+
+Core Mechanics:
+
+Saving/Loading is functional.
+
+Offline progress calculation works (base rates only, no active bonuses or stun simulation).
+
+Dev Tools:
+
+Dev Panel is accessible via the sidebar toggle link and closes correctly.
+
+Set Level function works.
+
+Give Item function works.
+
+Reset Save Data button works.
+
+New: Skill and Item dropdowns are now populated correctly when the Dev Panel is opened.
+
+Code State:
+
+Initialization errors (related to DOM readiness, script load order, gameState/itemData availability) have been resolved.
+
+Event listeners are now attached using a combination of native addEventListener (for static elements and delegation parents) and direct .onclick handlers (within dynamically generated list items like shop/bank/context menus), resolving previous UI unresponsiveness. Custom addSafeListener helper has been removed.
+
+ui.js functions for updating views (updateInventoryDisplay, updateBankDisplay, updateShopDisplay, updateSkillDisplay, etc.) have been made more robust against missing data or elements.
+
+Known syntax errors (e.g., missing braces) have been fixed.
+
+The structure uses globally accessible window.gameState and window.itemData.
+
+Relevant Scripts (Assumed Correct and Complete as of this state):
+
+constants.js (defines itemData, defaultPersistentState, defaultTransientConfig, attaches itemData and defaultTransientConfig to window)
+
+state.js (defines initial gameState, attaches to window)
+
+utils.js (utility functions like formatTime)
+
+skillLogic.js (handles XP gain, requirement checks)
+
+itemLogic.js (handles inventory, bank, shop item manipulation)
+
+actionLogic.js (handles action start/stop, completion logic, stun application, feedback return)
+
+saveLoad.js (handles saving, loading, offline progress)
+
+ui.js (handles all DOM manipulation, view switching, event listeners setup, UI updates)
+
+main.js (handles initialization sequence, game loop, visibility changes, dev function definitions)
+
+style.css (handles all visual styling, including themes and feedback animations)
+
+skill_rivals.html (main HTML structure)
+
+Next Potential Goals (Based on Initial List & Progress):
+
+Add more Thieving targets (e.g., different NPCs with varying difficulty/loot/stun).
+
+Implement another skill (e.g., Mining, Fishing, Crafting).
+
+Add more items, equipment, and refine shop interactions.
+
+Refine UI/UX further (e.g., add sounds for feedback, improve tooltips, refine visual appearance).
+
+(Consider) Add active session bonus for Thieving (e.g., increased success chance?).
+
+This report should accurately capture the current working state of the project.
+now i will provide all scripts from our game
